@@ -1,0 +1,25 @@
+.d-none{
+    display: none;
+}
+a{
+    text-decoration: none; 
+    color: inherit; 
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+.btn{
+    all: unset;
+    background: #ffffff;
+    padding: 3px 10px;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

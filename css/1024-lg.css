@@ -1,0 +1,7 @@
+  /* 'lg': '1024px', */
+  @media (min-width: 1024px) { 
+    .logo{
+      height: 70%;
+      margin-right: 40px;
+    }
+  }

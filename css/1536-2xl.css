@@ -1,0 +1,13 @@
+      /* '2xl': '1536px', */
+      @media (min-width: 1536px) { 
+            /* header{
+                  background-color: aquamarine;
+                  height: 300px;
+            } */
+            nav{
+                  max-width: 1440px;
+                  margin: 0px auto;
+            }
+
+
+      }
