@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -14,6 +14,7 @@ html {
  }*/
 header {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 5;
 }
 nav {
   width: 100%;
@@ -22,6 +23,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-inline: 5%;
+  z-index: 5;
 }
 
 .logo {
@@ -32,25 +34,148 @@ nav {
   all: unset;
   color: #00000094;
 }
-.globalNavgation{
-    display: none;
+.globalNavgation {
+  display: none;
 }
-.hamburgerMenu{
-   
-    position: absolute;
-    z-index: -2;
-    height: 100vh;
-    width: 100vw;
-    background-color: beige;
-    animation: slideIn 0.5s ease-in-out  1 forwards;
+#hamburgerMenuWrapper {
+  display: none;
+  justify-content: end;
+  width: 100%;
+  position: absolute;
+  z-index: 15;
+  height: 100vh;
+  /* background-color: rgba(36, 36, 34, 0.459); */
+}
+#hamburgerMenu {
+  display: none;
+  position: absolute;
+  margin-top: 2px;
+  z-index: 5;
+  height: 100vh;
+  width: 80%;
+  background-color: white;
+}
+.slideIn {
+  animation: slideIn 0.2s ease-in-out 1 forwards;
 }
 @keyframes slideIn {
-    from{
-        /* right: 0%; */
-        left: 100%;
-    }
-    to{
-        /* width: 100%; */
-        left: 0%;
-    }
+  from {
+    left: 100%;
+  }
+  to {
+    left: 20%;
+  }
 }
+.slideOut {
+  animation: slideOut 0.2s ease-in-out 1 forwards;
+}
+@keyframes slideOut {
+  from {
+    left: 20%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.menuLinks {
+  display: block;
+  padding: 15px 10px;
+  font-size: 18px;
+  margin: 10px 10px;
+}
+.menuLinks:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.menuLinks:nth-child(1) i {
+  margin-right: 10px;
+}
+
+.menuLinks:last-child{
+  border-bottom: 2px solid rgba(29, 28, 28, 0.719);
+  box-shadow: rgba(0, 0, 0, 0.35) 1px -20px 36px -28px inset;
+}
+
+#menuLinksWrapper {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 2px;
+  z-index: 10;
+  height: 100vh;
+  width: 80%;
+  background-color: white;
+}
+
+#menuLinksWrapper .muneLinks{
+    display: block;
+}
+.location-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 12px;
+    width: 7rem ;
+    font-weight: 500;
+    transition: 0.02s;
+    margin: 10px;
+  }
+  .location-btn:hover {
+    color: #006241;
+  }
+  .location-btn svg {
+    height: 18px !important;
+  }
+
+  .signIn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.2s;
+    width: 5rem;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  .signIn-btn:hover {
+    background-color: rgba(201, 201, 201, 0.726);
+  }
+  .signIn-btn:active {
+    transform: scale(1.1);
+  }
+
+  .joinNow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    width: 5rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    transition: 0.2s;
+    margin: 10px;
+  }
+  .joinNow-btn:hover {
+    background-color: rgba(0, 0, 0, 0.877);
+    transform: scale(1.01);
+  }
+  .joinNow-btn:active {
+    transform: scale(1.1);
+  }
+
+  #Menu2{
+    padding-right: 45%;
+    background-color: rgba(216, 209, 209, 0.575);
+
+  }
+  .menuLinks:active{
+    background-color: rgba(190, 190, 190, 0.603);
+  }
