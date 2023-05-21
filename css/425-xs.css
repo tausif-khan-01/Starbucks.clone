@@ -1,3 +1,22 @@
-@media (min-width: 425px) { 
-        
+@media (min-width: 425px) {
+  .text-wrapper {
+   
+    gap: clac(25px+5px);
+
+    padding: 17% 7%;
+    /* font-size: 1rem; */
+  }
+  .text-wrapper h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .text-wrapper p {
+    font-size: 1rem;
+  }
+  .PlayNow-btn {
+    background: #ffffff00;
+    padding: 4px 10px;
+
+    font-size: 14px;
+  }
 }

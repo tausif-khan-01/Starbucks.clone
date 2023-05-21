@@ -1,4 +1,32 @@
 /* 'sm': '640px', */
-@media (min-width: 640px) { 
-    
+@media (min-width: 640px) {
+  .img-wrapper {
+    height: 80vw;
+  }
+
+  .img-wrapper img {
+    height: 80vw;
+  }
+  .text-wrapper {
+    padding: 10% 10%;
+  }
+  .text-wrapper h2 {
+    font-size: 2rem;
+  }
+  .text-wrapper p {
+    font-size: 1.5rem;
+  }
+  .PlayNow-btn{
+  
+    background: #ffffff00;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 }

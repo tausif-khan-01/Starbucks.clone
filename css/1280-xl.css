@@ -1,4 +1,28 @@
-      /* 'xl': '1280px', */
-      @media (min-width: 1280px) { 
-
-      }
+/* 'xl': '1280px', */
+@media (min-width: 1280px) {
+  .firstSection {
+    
+      max-width: 1440px;
+      margin: 20px auto;
+  }
+  .img-wrapper {
+      width: 50%;
+      height: 500px;
+    }
+    .img-wrapper img {
+      width: 100%;
+      height: 500px;
+    }
+    .text-wrapper {
+    
+      /* justify-content: center; */
+      /* align-items: center; */
+      gap: 25px;
+      width: 50%;
+      height: 500px;
+      background-color: #006241;
+      color: white;
+      padding: 10% 5%;
+      /* font-size: 1rem; */
+    }
+}
