@@ -74,16 +74,15 @@
 
   .firstSection {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .firstSection:nth-child(odd){
+  .firstSection:nth-child(odd) {
     flex-direction: row-reverse;
-  
   }
-  .firstSection:nth-child(even){
+  .firstSection:nth-child(even) {
     flex-direction: row;
   }
 
@@ -97,7 +96,6 @@
   }
 
   .text-wrapper {
-    
     /* justify-content: center; */
     /* align-items: center; */
     gap: 25px;

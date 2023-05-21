@@ -92,7 +92,7 @@ nav {
   margin-right: 10px;
 }
 
-.menuLinks:last-child{
+.menuLinks:last-child {
   border-bottom: 2px solid rgba(29, 28, 28, 0.719);
   box-shadow: rgba(0, 0, 0, 0.35) 1px -20px 36px -28px inset;
 }
@@ -108,133 +108,122 @@ nav {
   background-color: white;
 }
 
-#menuLinksWrapper .muneLinks{
-    display: block;
+#menuLinksWrapper .muneLinks {
+  display: block;
 }
 .location-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5px;
-    font-size: 12px;
-    width: 7rem ;
-    font-weight: 500;
-    transition: 0.02s;
-    margin: 10px;
-  }
-  .location-btn:hover {
-    color: #006241;
-  }
-  .location-btn svg {
-    height: 18px !important;
-  }
-
-  .signIn-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5px;
-    font-size: 12px;
-    font-weight: 500;
-    transition: 0.2s;
-    width: 5rem;
-    margin: 10px;
-    text-align: center;
-    
-  }
-  .signIn-btn:hover {
-    background-color: rgba(201, 201, 201, 0.726);
-  }
-  .signIn-btn:active {
-    transform: scale(1.1);
-  }
-
-  .joinNow-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5px;
-    width: 5rem;
-    font-weight: 700;
-    color: white;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 14px;
-    transition: 0.2s;
-    margin: 10px;
-  }
-  .joinNow-btn:hover {
-    background-color: rgba(0, 0, 0, 0.877);
-    transform: scale(1.01);
-  }
-  .joinNow-btn:active {
-    transform: scale(1.1);
-  }
-
-  #Menu2{
-    padding-right: 45%;
-    background-color: rgba(216, 209, 209, 0.575);
-
-  }
-  .menuLinks:active{
-    background-color: rgba(190, 190, 190, 0.603);
-  }
-
-
-  .firstSection{
-    display: flex;
-    margin-block: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  font-size: 12px;
+  width: 7rem;
+  font-weight: 500;
+  transition: 0.02s;
+  margin: 10px;
+}
+.location-btn:hover {
+  color: #006241;
+}
+.location-btn svg {
+  height: 18px !important;
 }
 
-
-.img-wrapper{
-    width: 100%;
-    height: 100vw;
-
+.signIn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.2s;
+  width: 5rem;
+  margin: 10px;
+  text-align: center;
 }
-.img-wrapper img{
-    width: 100%;
-    object-fit: cover;
-    height: 100vw;
-    
+.signIn-btn:hover {
+  background-color: rgba(201, 201, 201, 0.726);
+}
+.signIn-btn:active {
+  transform: scale(1.1);
 }
 
-.text-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    width: 100%;
-    background-color: #006241;
-    color: white;
-    padding: 15% 5%;
-    /* font-size: 1rem; */
+.joinNow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  width: 5rem;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 14px;
+  transition: 0.2s;
+  margin: 10px;
 }
-.text-wrapper h2{
-  font-size:1.5rem ;
+.joinNow-btn:hover {
+  background-color: rgba(0, 0, 0, 0.877);
+  transform: scale(1.01);
+}
+.joinNow-btn:active {
+  transform: scale(1.1);
+}
+
+#Menu2 {
+  padding-right: 45%;
+  background-color: rgba(216, 209, 209, 0.575);
+}
+.menuLinks:active {
+  background-color: rgba(190, 190, 190, 0.603);
+}
+
+.firstSection {
+  display: flex;
+  margin-block: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100vw;
+}
+.img-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vw;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  background-color: #006241;
+  color: white;
+  padding: 15% 5%;
+  /* font-size: 1rem; */
+}
+.text-wrapper h2 {
+  font-size: 1.5rem;
   font-weight: 600;
 }
-.text-wrapper p{
-    font-size: 1rem ;   
+.text-wrapper p {
+  font-size: 1rem;
 }
-.PlayNow-btn{
-  
-  
-    background: #ffffff00;
-    padding: 3px 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 30px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-
-
+.PlayNow-btn {
+  background: #ffffff00;
+  padding: 3px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
-

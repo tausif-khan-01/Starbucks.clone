@@ -1,13 +1,11 @@
-      /* '2xl': '1536px', */
-      @media (min-width: 1536px) { 
-            /* header{
+/* '2xl': '1536px', */
+@media (min-width: 1536px) {
+  /* header{
                   background-color: aquamarine;
                   height: 300px;
             } */
-            nav{
-                  max-width: 1440px;
-                  margin: 0px auto;
-            }
-
-
-      }
+  nav {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+}
