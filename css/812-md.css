@@ -98,27 +98,27 @@
   .text-wrapper {
     /* justify-content: center; */
     /* align-items: center; */
-    gap: 25px;
+    gap: auto;
     width: 50%;
     height: 50vw;
-    background-color: #006241;
-    color: white;
+   
+    
     padding: 10% 5%;
     /* font-size: 1rem; */
   }
   .text-wrapper h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
   }
   .text-wrapper p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .PlayNow-btn {
     background: #ffffff00;
     padding: 5px 20px;
-    border: 1px solid rgb(255, 255, 255);
+    
     border-radius: 30px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;

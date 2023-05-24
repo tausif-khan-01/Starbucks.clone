@@ -6,21 +6,30 @@
   }
   .img-wrapper {
     width: 50%;
-    height: 500px;
+    height: 620px;
   }
   .img-wrapper img {
     width: 100%;
-    height: 500px;
+    height: 620px;
   }
   .text-wrapper {
     /* justify-content: center; */
     /* align-items: center; */
     gap: 25px;
     width: 50%;
-    height: 500px;
-    background-color: #006241;
-    color: white;
-    padding: 10% 5%;
+    height: 620px;
+    
+    
+    padding: auto;
     /* font-size: 1rem; */
+    
+  }
+  .text-wrapper h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+  }
+  .text-wrapper p {
+    font-size: 1.5rem;
   }
 }

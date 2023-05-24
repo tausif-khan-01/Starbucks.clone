@@ -14,29 +14,32 @@
   }
   .img-wrapper img {
     width: 100%;
-    height: 40vw;
+    height: 60vw;
   }
   .img-wrapper {
     width: 50%;
-    height: 40vw;
+    height: 60vw;
   }
 
   .text-wrapper {
     /* justify-content: center; */
     /* align-items: center; */
-    gap: 10%;
+    gap: auto;
     width: 50%;
-    height: 40vw;
-    background-color: #006241;
-    color: white;
-    padding: 10% 5%;
+    height: 60vw;
+    
+    
+    padding: auto;
     /* font-size: 1rem; */
   }
   .text-wrapper h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
   }
   .text-wrapper p {
-    font-size: 2rem;
+    font-size: 1.4rem;
+  }
+  .PlayNow-btn{
+    margin: 10px auto;
   }
 }
