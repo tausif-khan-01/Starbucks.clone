@@ -18,4 +18,24 @@
     padding: 7.25px 15px;
     font-size: 14px;
   }
+  .socialMediaHandles ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  footer svg{
+    height: 35px !important;
+    width: 35px !important;
+    color: black;
+  }
+  .socialMediaHandles{
+    padding: 0px 30px;
+  }
+  .footerEnd{
+  
+    color: black !important;
+  }
 }

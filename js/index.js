@@ -1,4 +1,3 @@
-
 // Navi gation Maenu
 let hamburgerButtonSvg = document.querySelector("#hamburgerButtonSvg");
 let crossIcon = document.querySelector(" #crossIcon");
@@ -54,5 +53,30 @@ side.addEventListener("click", function () {
     hamburgerMenuWrapper.style.display = "none";
   }, 200);
 });
+
+let linkContainer = document.getElementsByClassName("linkContainer");
+let footerLinkHeader = document.getElementsByClassName("footerLinkHeader");
+
+
+  footerLinkHeader[0].addEventListener("click", () => {
+    linkContainer[0].classList.toggle("height");
+    // linkContainer[0].style.height = "auto";
+  });
+  
+  footerLinkHeader[1].addEventListener("click", () => {
+    linkContainer[1].classList.toggle("height");
+  });
+  
+  footerLinkHeader[2].addEventListener("click", () => {
+    linkContainer[2].classList.toggle("height");
+  });
+  
+  footerLinkHeader[3].addEventListener("click", () => {
+    linkContainer[3].classList.toggle("height");
+  });
+  footerLinkHeader[4].addEventListener("click", () => {
+    linkContainer[4].classList.toggle("height");
+  });
+  
 
 
