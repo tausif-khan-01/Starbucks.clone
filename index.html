@@ -34,7 +34,7 @@
   <body>
     <header>
       <nav>
-        <a class="logo">
+        <a href="/" class="logo">
           <svg
             class="block"
             focusable="false"
@@ -62,29 +62,36 @@
             <li><a href="#">GIFT CARDS</a></li>
           </ul>
           <div class="globalNavgation-right">
-            <button class="location-btn btn">
-              <svg
-                aria-hidden="true"
-                class="valign-middle pr2"
-                focusable="false"
-                preserveAspectRatio="xMidYMid meet"
-                style="
-                  width: 32px;
-                  height: 32px;
-                  overflow: visible;
-                  fill: currentColor;
-                "
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"
-                ></path>
-              </svg>
+            <a href="https://www.starbucks.com/store-locator">
+              <button class="location-btn btn">
+                <svg
+                  aria-hidden="true"
+                  class="valign-middle pr2"
+                  focusable="false"
+                  preserveAspectRatio="xMidYMid meet"
+                  style="
+                    width: 32px;
+                    height: 32px;
+                    overflow: visible;
+                    fill: currentColor;
+                  "
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"
+                  ></path>
+                </svg>
 
-              <span class="location-txt">Find a store</span>
-            </button>
-            <button class="signIn-btn btn">sign in</button>
-            <button class="joinNow-btn btn">join now</button>
+                <span class="location-txt">Find a store </span>
+              </button>
+            </a>
+            <a href="https://www.starbucks.com/account/signin?ReturnUrl=%2F">
+              <button class="signIn-btn btn">sign in</button>
+            </a>
+
+            <a href="https://www.starbucks.com/account/create">
+              <button class="joinNow-btn btn">join now</button>
+            </a>
           </div>
         </div>
         <button id="hamburgerButton" class="hamburgerButton">
@@ -145,8 +152,12 @@
             ><span>Menu</span>
             <i class="fa-solid fa-chevron-right"></i>
           </a>
-          <a href="#" class="menuLinks">Rewards</a>
-          <a href="#" class="menuLinks">Gift Cards</a>
+          <a href="https://www.starbucks.com/rewards" class="menuLinks"
+            >Rewards</a
+          >
+          <a href="https://www.starbucks.com/gift" class="menuLinks"
+            >Gift Cards</a
+          >
           <button class="location-btn btn">
             <svg
               aria-hidden="true"
@@ -166,10 +177,16 @@
               ></path>
             </svg>
 
-            <span class="location-txt">Find a store</span>
+            <a href="https://www.starbucks.com/store-locator"
+              ><span class="location-txt">Find a store</span></a
+            >
           </button>
-          <button class="signIn-btn btn">sign in</button>
-          <button class="joinNow-btn btn">join now</button>
+          <a href="https://www.starbucks.com/account/signin?ReturnUrl=%2F"
+            ><button class="signIn-btn btn">sign in</button></a
+          >
+          <a href="https://www.starbucks.com/account/create"
+            ><button class="joinNow-btn btn">join now</button></a
+          >
         </div>
 
         <div id="menuLinksWrapper">
@@ -177,10 +194,18 @@
             ><i class="fa-solid fa-chevron-left"></i>
             Menu
           </a>
-          <a href="#" class="menuLinks">All Products</a>
-          <a href="#" class="menuLinks">Featured</a>
-          <a href="#" class="menuLinks">Previous Orders</a>
-          <a href="#" class="menuLinks">Favourite Products</a>
+          <a href="https://www.starbucks.com/menu" class="menuLinks"
+            >All Products</a
+          >
+          <a href="https://www.starbucks.com/menu/featured" class="menuLinks"
+            >Featured</a
+          >
+          <a href="https://www.starbucks.com/menu/previous" class="menuLinks"
+            >Previous Orders</a
+          >
+          <a href="https://www.starbucks.com/menu/favorites" class="menuLinks"
+            >Favourite Products</a
+          >
         </div>
       </div>
     </header>
@@ -198,12 +223,16 @@
             Starbucks® Summer Game is here! Play for your chance to win—more
             than 10 million prizes are up for grabs!*
           </p>
-          <button
-            class="PlayNow-btn btn"
-            style="border: 1px solid rgb(255, 255, 255)"
+          <a
+            href="https://www.starbuckssummergame.com/?utm_medium=website&utm_source=sr&utm_campaign=sg23_20230513&utm_content=web_banner_spot_1"
           >
-            Play Now
-          </button>
+            <button
+              class="PlayNow-btn btn"
+              style="border: 1px solid rgb(255, 255, 255)"
+            >
+              Play Now
+            </button>
+          </a>
         </div>
       </section>
       <section
@@ -220,12 +249,14 @@
             coffee best. Enjoy its honeybell orange and graham cracker notes hot
             or over ice—just like our baristas do.
           </p>
-          <button
-            class="PlayNow-btn btn"
-            style="border: 1px solid rgb(255, 255, 255)"
-          >
-            Order now
-          </button>
+          <a href="https://www.starbucks.com/menu/product/2123755/whole-bean">
+            <button
+              class="PlayNow-btn btn"
+              style="border: 1px solid rgb(255, 255, 255)"
+            >
+              Order now
+            </button>
+          </a>
         </div>
       </section>
       <section
@@ -241,9 +272,11 @@
             Hooray for our newest cooler-than-cool Chocolate Java Mint
             Frappuccino® blended beverage.
           </p>
-          <button class="PlayNow-btn btn" style="border: 1px solid #1e3932">
-            Order now
-          </button>
+          <a href="https://www.starbucks.com/menu/product/2123759/iced">
+            <button class="PlayNow-btn btn" style="border: 1px solid #1e3932">
+              Order now
+            </button>
+          </a>
         </div>
       </section>
       <section
@@ -260,7 +293,11 @@
             Lemonade, Pineapple Passionfruit Lemonade and Strawberry Açaí
             Lemonade.
           </p>
-          <button class="PlayNow-btn btn">Order now</button>
+          <a
+            href="https://www.starbucks.com/menu/drinks/cold-drinks/starbucks-refreshers"
+          >
+            <button class="PlayNow-btn btn">Order now</button>
+          </a>
         </div>
       </section>
       <section
@@ -276,7 +313,9 @@
             For each Military eGift sold in May, we’ll donate $5 to support our
             military community.**
           </p>
-          <button class="PlayNow-btn btn">Send an eGift</button>
+          <a href="https://www.starbucks.com/gift/category/military">
+            <button class="PlayNow-btn btn">Send an eGift</button>
+          </a>
         </div>
       </section>
     </main>
@@ -289,12 +328,26 @@
           </div>
           <div class="linkContainer over-flow">
             <ul>
-              <li><a href="#">Our Company</a></li>
-              <li><a href="#">Our Coffee</a></li>
-              <li><a href="#">Stories and News</a></li>
-              <li><a href="#">Starbucks Archieve</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Customer Service</a></li>
+              <li>
+                <a href="https://www.starbucks.com/about-us/">Our Company</a>
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/coffee/">Our Coffee</a>
+              </li>
+              <li>
+                <a href="https://stories.starbucks.com/">Stories and News</a>
+              </li>
+              <li>
+                <a href="https://archive.starbucks.com/">Starbucks Archieve</a>
+              </li>
+              <li>
+                <a href="https://investor.starbucks.com/">Investor Relations</a>
+              </li>
+              <li>
+                <a href="https://customerservice.starbucks.com/"
+                  >Customer Service</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -305,12 +358,36 @@
           </div>
           <div class="linkContainer over-flow">
             <ul>
-              <li><a href="#">Culture and Values</a></li>
-              <li><a href="#">Inclusion, Diversity, and Equity</a></li>
-              <li><a href="#">College Achievement Plan</a></li>
-              <li><a href="#">Alumni Community</a></li>
-              <li><a href="#">U.S. Careers</a></li>
-              <li><a href="#">International Careers</a></li>
+              <li>
+                <a
+                  href="https://www.starbucks.com/careers/working-at-starbucks/culture-and-values/"
+                  >Culture and Values</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://stories.starbucks.com/stories/inclusion-diversity/"
+                  >Inclusion, Diversity, and Equity</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.starbucks.com/careers/working-at-starbucks/education/"
+                  >College Achievement Plan</a
+                >
+              </li>
+              <li>
+                <a href="https://alumni.starbucks.com/">Alumni Community</a>
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/careers/">U.S. Careers</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.starbucks.com/careers/international-careers/"
+                  >International Careers</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -321,9 +398,22 @@
           </div>
           <div class="linkContainer over-flow">
             <ul>
-              <li><a href="#">People</a></li>
-              <li><a href="#">Planet</a></li>
-              <li><a href="#">Environmental and Social Impact Reporting</a></li>
+              <li>
+                <a href="https://starbucks.com/responsibility/people/"
+                  >People</a
+                >
+              </li>
+              <li>
+                <a href="https://starbucks.com/responsibility/planet/"
+                  >Planet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.starbucks.com/responsibility/reporting-hub/"
+                  >Environmental and Social Impact Reporting</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -334,11 +424,28 @@
           </div>
           <div class="linkContainer over-flow">
             <ul>
-              <li><a href="#">Landlord Support Center</a></li>
-              <li><a href="#">Suppliers</a></li>
-              <li><a href="#">Stories </a></li>
-              <li><a href="#">Corporate Gift Card Sales</a></li>
-              <li><a href="#">Office and Foodservice Coffee</a></li>
+              <li>
+                <a href="https://www.starbucks.com/business/landlord-faq/"
+                  >Landlord Support Center</a
+                >
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/business/suppliers/"
+                  >Suppliers</a
+                >
+              </li>
+
+              <li>
+                <a href="https://www.starbuckscardb2b.com/"
+                  >Corporate Gift Card Sales</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.nestlecoffeepartnerssl.com/our-brands/we-proudly-serve-starbucks-coffee-program"
+                  >Office and Foodservice Coffee</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -349,11 +456,30 @@
           </div>
           <div class="linkContainer over-flow">
             <ul>
-              <li><a href="#">Order on the App</a></li>
-              <li><a href="#">Order on the Web</a></li>
-              <li><a href="#">Delivery</a></li>
-              <li><a href="#">Order and Pickup Options</a></li>
-              <li><a href="#">Explore and Find Coffee for Home</a></li>
+              <li>
+                <a href="https://www.starbucks.com/rewards/mobile-apps/"
+                  >Order on the App</a
+                >
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/menu">Order on the Web</a>
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/ways-to-order/delivery/"
+                  >Delivery</a
+                >
+              </li>
+              <li>
+                <a href="https://www.starbucks.com/ways-to-order/"
+                  >Order and Pickup Options</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://athome.starbucks.com/?utm_source=starbucks.com&utm_medium=referral&utm_campaign=footer"
+                  >Explore and Find Coffee for Home</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -549,15 +675,32 @@
           </li>
         </ul>
         <ul class="footerEnd">
-          <li><a href="#">Privacy Notice</a></li>
+          <li>
+            <a href="https://www.starbucks.com/terms/privacy-policy/"
+              >Privacy Notice</a
+            >
+          </li>
           <li>|</li>
-          <li><a href="#">Terms Of Use</a></li>
+          <li>
+            <a href="https://www.starbucks.com/terms/starbucks-terms-of-use/"
+              >Terms Of Use</a
+            >
+          </li>
           <li>|</li>
-          <li><a href="#">Do not Share My Personal Information</a></li>
+          <li>
+            <a href="https://www.starbucks.com/personal-information"
+              >Do not Share My Personal Information</a
+            >
+          </li>
           <li>|</li>
-          <li><a href="#">CA Supply Chain Act</a></li>
+          <li>
+            <a
+              href="https://globalassets.starbucks.com/assets/A2A072E3411C4A6ABAEB8D6BCF286F43.pdf"
+              >CA Supply Chain Act</a
+            >
+          </li>
           <li>|</li>
-          <li><a href="#">Cookie Prefrences</a></li>
+          <li><a href="">Cookie Prefrences</a></li>
 
           <div class="copyWrite">
             <a style="color: #00000094 !important"
